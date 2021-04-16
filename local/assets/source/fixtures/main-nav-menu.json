@@ -1,0 +1,25 @@
+{
+	"type": "menu",
+	"items": [
+		{
+			"icon":  null,
+			"text": "Бренды",
+			"link": "#"
+		},
+		{
+			"icon": null,
+			"text": "Новости и акции",
+			"link": "#"
+		},
+		{
+			"icon": null,
+			"text": "О компании",
+			"link": "#"
+		},
+		{
+			"icon": null,
+			"text": "Контакты",
+			"link": "#"
+		}
+	]
+}

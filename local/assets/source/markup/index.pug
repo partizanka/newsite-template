@@ -1,0 +1,22 @@
+extends /templates/page.pug
+
+block head-title
+	title Template Markup
+
+block header
+
+block footer
+
+block main
+	.guideline
+		.guideline__head
+			.container
+				h1 Template
+
+		+guideline-block('Список страниц')
+			.text-guide
+				ul
+					li
+						a(href="/local/assets/dist/markup/main.html") Главная
+					li
+						a(href="/local/assets/dist/markup/popup.html") Модальное окно

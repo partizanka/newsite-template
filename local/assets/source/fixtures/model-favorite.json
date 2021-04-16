@@ -1,0 +1,9 @@
+{
+	"type": "favorite",
+
+	"remote": "/local/assets/dist/fixtures/model-favorite.json",
+
+	"link": "#",
+
+	"items": []
+}

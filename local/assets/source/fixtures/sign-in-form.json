@@ -1,0 +1,61 @@
+{
+	"remote": "/local/assets/dist/fixtures/sign-in-form.json",
+
+	"title": null,
+	"note": null,
+
+	"buttons": [
+		{
+			"type": "submit",
+			"text": "Войти",
+			"className": "btn btn--primary",
+			"event": null,
+			"disabled": false
+		},
+		{
+			"type": "button",
+			"text": "Зарегистрироваться",
+			"className": "btn btn--secondary js-replace-modal",
+			"modalUrl": "/local/assets/dist/markup/modal-sign-up.html",
+			"modalData": "{\"className\": \"modal--sm\"}",
+			"event": null,
+			"disabled": false
+		}
+	],
+
+	"groups": [
+		{
+			"id": "1",
+			"title": null,
+			"note": null,
+			"width": "100%"
+		}
+	],
+
+	"fields": [
+		{
+			"groupId": "1",
+			"id": "FIELD_NAME",
+			"name": "FIELD_NAME",
+			"type": "text",
+			"inputmode": "text",
+			"label": "Имя",
+			"placeholder": "Укажите имя",
+			"value": "Тест",
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "PASSWORD",
+			"name": "PASSWORD",
+			"type": "password",
+			"inputmode": "text",
+			"label": "Пароль",
+			"placeholder": "Укажите пароль",
+			"value": "Тест",
+			"errors": null,
+			"width": "100%"
+		}
+	]
+}

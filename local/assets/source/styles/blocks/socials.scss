@@ -1,0 +1,52 @@
+.socials {
+	display: flex;
+	justify-content: space-between;
+	width: 260px;
+	list-style: none;
+	margin-right: 140px;
+	padding: 0 0 15px;
+}
+
+.socials__link {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-color: #e1e1e1;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50px;
+}
+
+.socials__link:hover {
+	background-color: #e74246;
+}
+
+.socials__link:active {
+	color: rgba(255, 255, 255, .3);
+	background-color: #d7373b;
+	box-shadow: inset 0px 3px 0px 0px #c13135;
+}
+
+.socials__link--vk {
+	background-image: url("../../images/vk-icon.png");
+}
+
+.socials__link--fb {
+	background-image: url("../../images/fb-icon.png");
+}
+
+.socials__link--inst {
+	background-image: url("../../images/insta-icon.png");
+}
+
+@include tablet {
+	.socials {
+		margin: 0;
+	}
+}
+
+@include phone {
+	.socials {
+		margin: 0;
+	}
+}

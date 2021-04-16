@@ -1,0 +1,355 @@
+{
+	"remote": "/local/assets/dist/fixtures/guideline-form.json",
+
+	"title": "Заголовок формы",
+	"note": "Описание формы",
+
+	"buttons": [
+		{
+			"type": "submit",
+			"text": "Отправить",
+			"class": "btn btn--primary",
+			"event": null,
+			"disabled": false
+		}
+	],
+
+	"groups": [
+		{
+			"id": "1",
+			"title": "Персональные данные",
+			"note": "Описание группы полей",
+			"width": "100%"
+		},
+		{
+			"id": "2",
+			"title": "Дополнительно 1",
+			"note": "Описание группы полей",
+			"width": "50%"
+		},
+		{
+			"id": "3",
+			"title": "Дополнительно 2",
+			"note": "Описание группы полей",
+			"width": "50%"
+		}
+	],
+
+	"fields": [
+		{
+			"groupId": "1",
+			"id": "FIELD_NAME",
+			"name": "FIELD_NAME",
+			"type": "text",
+			"inputmode": "text",
+			"label": "Имя",
+			"placeholder": "Укажите имя",
+			"value": "Тест",
+			"errors": null,
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_LAST_NAME",
+			"name": "FIELD_LAST_NAME",
+			"type": "text",
+			"inputmode": "text",
+			"label": "Фамилия",
+			"placeholder": "Укажите фамилию",
+			"value": "Тест",
+			"errors": null,
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_PATR",
+			"name": "FIELD_PATR",
+			"type": "text",
+			"inputmode": "text",
+			"label": "Отчество",
+			"placeholder": "Укажите отчество",
+			"value": null,
+			"errors": [
+				"Поле обязательно для заполнения"
+			],
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"type": "spacer"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_PHONE",
+			"name": "FIELD_PHONE",
+			"type": "tel",
+			"inputmode": "tel",
+			"label": "Контактный телефон",
+			"placeholder": "+375 (XX) XXX-XX-XX",
+			"value": null,
+			"mask": "+375 (##) ###-##-##",
+			"errors": null,
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_ADD_PHONE",
+			"name": "FIELD_ADD_PHONE",
+			"type": "tel",
+			"inputmode": "tel",
+			"label": "Дополнительный телефон",
+			"placeholder": "+375 (XX) XXX-XX-XX",
+			"value": [null],
+			"mask": "+375 (##) ###-##-##",
+			"multiple": true,
+			"multipleLimit": 3,
+			"errors": null,
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_EMAIL",
+			"name": "FIELD_EMAIL",
+			"type": "email",
+			"inputmode": "email",
+			"label": "Email",
+			"placeholder": "Укажите email",
+			"value": "123",
+			"errors": [
+				"Поле обязательно для заполнения",
+				"Поле должно содержать символ @"
+			],
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_ADD_EMAIL",
+			"name": "FIELD_ADD_EMAIL",
+			"type": "email",
+			"inputmode": "email",
+			"label": "Дополнительный email",
+			"placeholder": "Укажите email",
+			"value": [null, "test@test.test", "test"],
+			"multiple": true,
+			"multipleLimit": 5,
+			"errors": [
+				[
+					"Поле обязательно для заполнения"
+				],
+				[
+
+				],
+				[
+					"Поле обязательно для заполнения",
+					"Поле должно содержать символ @"
+				]
+			],
+			"width": "50%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_CITY",
+			"name": "FIELD_CITY",
+			"type": "radio-list",
+			"label": "Пол",
+			"value": "ж",
+			"options": [
+				{"value": "ж", "text": "Мужской"},
+				{"value": "м", "text": "Женский"}
+			],
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_OPTS",
+			"name": "FIELD_OPTS",
+			"type": "check-list",
+			"label": "Опции",
+			"value": ["2"],
+			"options": [
+				{"value": "1", "text": "Опция 1"},
+				{"value": "2", "text": "Опция 2"},
+				{"value": "3", "text": "Опция 3"},
+				{"value": "4", "text": "Опция 4"}
+			],
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_FILES",
+			"name": "FIELD_FILES",
+			"type": "file",
+			"label": "Портфолио (один файл)",
+			"files": null,
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_FILES_2",
+			"name": "FIELD_FILES_2",
+			"type": "file",
+			"label": "Портфолио (один файл, не пустое)",
+			"files": [
+				{
+					"name": "myphoto.jpg",
+					"image": null,
+					"path": "/some/fake/path/myphoto.jpg"
+				}
+			],
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_FILES_MULT",
+			"name": "FIELD_FILES_MULT",
+			"type": "file",
+			"label": "Портфолио (несколько файлов)",
+			"files": [
+				{
+					"name": "myphoto.jpg",
+					"image": null,
+					"path": "/some/fake/path/myphoto.jpg"
+				},
+				{
+					"name": "myphoto2.jpg",
+					"image": null,
+					"path": "/some/fake/path/myphoto2.jpg"
+				}
+			],
+			"multiple": true,
+			"multipleLimit": 10,
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "FIELD_NOTE",
+			"name": "FIELD_NOTE",
+			"type": "textarea",
+			"inputmode": "text",
+			"label": "О себе",
+			"value": "О себе",
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "2",
+			"id": "FIELD_CITY",
+			"name": "FIELD_CITY",
+			"type": "select",
+			"label": "Город",
+			"value": "2",
+			"placeholder": "Укажите город",
+			"options": [
+				{"value": "1", "text": "Минск"},
+				{"value": "2", "text": "Брест"},
+				{"value": "3", "text": "Витебск"},
+				{"value": "4", "text": "Гомель"},
+				{"value": "5", "text": "Гродно"},
+				{"value": "6", "text": "Могилев"}
+			],
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "3",
+			"id": "FIELD_STREET",
+			"name": "FIELD_STREET",
+			"type": "text",
+			"inputmode": "text",
+			"label": "Улица",
+			"value": null,
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "2",
+			"id": "FIELD_HOUSE",
+			"name": "FIELD_HOUSE",
+			"type": "text",
+			"inputmode": "numeric",
+			"label": "Дом",
+			"value": null,
+			"errors": null,
+			"width": "50%"
+		},
+		{
+			"groupId": "2",
+			"id": "FIELD_APARTMENT",
+			"name": "FIELD_APARTMENT",
+			"type": "text",
+			"inputmode": "numeric",
+			"label": "Квартира",
+			"value": null,
+			"errors": null,
+			"width": "50%"
+		},
+		{
+			"groupId": "3",
+			"id": "FIELD_SITE",
+			"name": "FIELD_SITE",
+			"type": "text",
+			"inputmode": "url",
+			"label": "Сайт компании (inputmode=\"url\")",
+			"value": null,
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "3",
+			"id": "FIELD_INTEGER",
+			"name": "FIELD_INTEGER",
+			"type": "text",
+			"inputmode": "numeric",
+			"label": "Целое число (inputmode=\"numeric\")",
+			"value": null,
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "3",
+			"id": "FIELD_DECIMAL",
+			"name": "FIELD_DECIMAL",
+			"type": "text",
+			"inputmode": "numeric",
+			"label": "Дробное число (inputmode=\"decimal\")",
+			"value": 5.5,
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "3",
+			"id": "LENGTH",
+			"name": "LENGTH",
+			"title": "Длина",
+			"type": "range",
+			"value": {"min": 60, "max": 220},
+			"min": 60,
+			"max": 220,
+			"prefixMin": "от",
+			"prefixMax": "до",
+			"postfixMin": "см",
+			"postfixMax": "см",
+			"precision": 1
+		},
+		{
+			"groupId": "3",
+			"id": "WIDTH",
+			"name": "WIDTH",
+			"title": "Ширина",
+			"type": "range-slider",
+			"value": {"min": 60, "max": 220},
+			"min": 60,
+			"max": 220,
+			"prefixMin": "от",
+			"prefixMax": "до",
+			"postfixMin": "см",
+			"postfixMax": "см",
+			"precision": 1
+		}
+	]
+}

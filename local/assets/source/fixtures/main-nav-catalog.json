@@ -1,0 +1,186 @@
+{
+	"type": "catalog",
+	"items": [
+		{
+			"icon": "#svg-icon-placeholder",
+			"text": "Каталог",
+			"link": null,
+			"items": [
+				{
+					"icon": null,
+					"text": "Первый раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Четвертый подраздел",
+							"link": "#"
+						}
+					]
+				},
+				{
+					"icon": null,
+					"text": "Второй раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Четвертый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Пятый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Шестой подраздел",
+							"link": "#"
+						}
+					]
+				},
+				{
+					"icon": null,
+					"text": "Третий раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						}
+					]
+				},
+				{
+					"icon": null,
+					"text": "Четвертый раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						}
+					]
+				},
+				{
+					"icon": null,
+					"text": "Пятый раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						}
+					]
+				},
+				{
+					"icon": null,
+					"text": "Шестой раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						}
+					]
+				},
+				{
+					"icon": null,
+					"text": "Седьмой раздел",
+					"link": "#",
+					"items": [
+						{
+							"icon": null,
+							"text": "Первый подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Второй подраздел",
+							"link": "#"
+						},
+						{
+							"icon": null,
+							"text": "Третий подраздел",
+							"link": "#"
+						}
+					]
+				}
+			]
+		}
+	]
+}

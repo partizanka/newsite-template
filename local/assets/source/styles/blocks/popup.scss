@@ -1,0 +1,118 @@
+.popup {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
+	display: none;
+	box-sizing: border-box;
+	width: 960px;
+	height: 590px;
+	padding: 65px 80px 80px 100px;
+	background-color: #fff;
+	box-shadow: 0 20px 40px 0 #000;
+}
+
+.js-show {
+	display: block;
+}
+
+.popup__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 760px;
+}
+
+.popup__title {
+	margin: 0 0 40px;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000;
+}
+
+.popup__close {
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	background-color: #fff;
+	background-image: url("../icons/close-cross.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0;
+	cursor: pointer;
+	opacity: .3;
+}
+
+.popup__close:hover {
+	opacity: 1;
+}
+
+.popup__close:active {
+	opacity: .1;
+}
+
+.popup__label {
+	display: block;
+	margin: 0 0 10px;
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.popup__input {
+	box-sizing: content-box;
+	width: 326px;
+	height: 15px;
+	margin: 0 0 25px;
+	padding: 15px;
+	border: 2px solid #d7dcde;
+	border-radius: 3px;
+}
+
+.popup__textarea {
+	width: 760px;
+	padding: 15px;
+	margin: 0 0 35px;
+	border: 2px solid #d7dcde;
+	border-radius: 3px;
+}
+
+.popup__textarea:hover,
+.popup__input:hover {
+	border: 2px solid #b4b9bb;
+}
+
+.popup__textarea:focus,
+.popup__input:focus {
+	border: 2px solid #000;
+}
+
+.popup__textarea:invalid,
+.popup__input:invalid {
+	border: 2px solid #e74246;
+}
+
+.popup__btn {
+	width: 260px;
+	margin: 0;
+	padding: 16px 0;
+	line-height: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	background-color: #fb565a;
+	border-radius: 3px;
+	border: 0;
+	cursor: pointer;
+}
+
+.popup__btn:hover {
+	background-color: #e74246;
+}
+
+.popup__btn:active {
+	color: rgba(255, 255, 255, .3);
+	background-color: #d7373b;
+	box-shadow: inset 0px 3px 0px 0px #c13135;
+}

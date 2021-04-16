@@ -1,0 +1,15 @@
+{
+	"type": "top-menu",
+	"items": [
+		{
+			"icon": "#svg-icon-placeholder",
+			"text": "Доставка",
+			"link": "#"
+		},
+		{
+			"icon": "#svg-icon-placeholder",
+			"text": "Адреса магазинов",
+			"link": "#"
+		}
+	]
+}

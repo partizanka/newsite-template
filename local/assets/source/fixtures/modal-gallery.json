@@ -1,0 +1,35 @@
+{
+	"items": [
+		{
+			"type": "image",
+			"poster": "https://placehold.it/128x128/9e9/000",
+			"src": "https://placehold.it/1280x1280/9e9/000",
+			"note": "Описание изображения 1"
+		},
+		{
+			"type": "image",
+			"poster": "https://placehold.it/128x128/aad/000",
+			"src": "https://placehold.it/2500x1000/aad/000",
+			"note": "Описание изображения 4"
+		},
+		{
+			"type": "image",
+			"poster": "https://placehold.it/128x128/daa/000",
+			"src": "https://placehold.it/1000x2500/daa/000",
+			"note": "Описание изображения 5"
+		},
+		{
+			"type": "iframe",
+			"poster": "https://placehold.it/128x128/e99/000",
+			"src": "https://www.youtube.com/embed/AWKzr6n0ea0",
+			"note": "Описание YouTube видео"
+		},
+		{
+			"type": "video",
+			"poster": "https://placehold.it/128x128/99e/000",
+			"videoPoster": "https://placehold.it/1280x1280/99e/000",
+			"src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+			"note": "Описание видео"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "user",
+	"items": [
+		{
+			"text": "Личный кабинет",
+			"link": "#",
+			"icon": "#svg-icon-placeholder",
+			"items": [
+				{"text": "Профиль", "link": "#"},
+				{"text": "История заказов", "link": "#"},
+				{"text": "Выйти", "link": "#"}
+			]
+		},
+		{
+			"text": "Войти",
+			"link": null,
+			"icon": "#svg-icon-placeholder",
+			"modalLink": "/local/assets/dist/markup/modal-sign-in.html",
+			"modalData": "{\"className\": \"modal--sm\"}"
+		}
+	]
+}

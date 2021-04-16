@@ -1,0 +1,31 @@
+doctype html
+html(lang="ru")
+	head
+		include /include/meta.pug
+
+		block head-title
+			title Дизайн-студия Нёрдс
+
+	body
+
+		//- include /mixins/guideline-block.pug
+		//- include /mixins/breadcrumbs.pug
+		include /mixins/page-title.pug
+		include /mixins/guideline-block.pug
+
+
+
+		//- include /include/system-header.pug
+
+		//- .overlay.js-overlay
+
+		block header
+			include /include/header.pug
+
+		main.page-main
+			block main
+
+		block footer
+			include /include/footer.pug
+
+		include /popup.pug

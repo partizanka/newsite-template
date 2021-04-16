@@ -1,0 +1,530 @@
+{
+	"remote": "/local/assets/dist/fixtures/catalog.json",
+
+	"type": "products",
+
+	"sort": {
+		"value": "1",
+		"options": [
+			{"value": "1", "text": "Сначала популярные"},
+			{"value": "2", "text": "Сначала дешевые"},
+			{"value": "3", "text": "По названию"}
+		]
+	},
+
+	"view": {
+		"value": "grid",
+		"options": [
+			{"value": "grid", "text": "Подробно"},
+			{"value": "list", "text": "Кратко"}
+		]
+	},
+
+	"page": {
+		"offset": 120,
+		"limit": 12,
+		"count": 311
+	},
+
+	"links": [
+		{"link": "#", "text": "Первый раздел каталога"},
+		{"link": "#", "text": "Второй раздел каталога"},
+		{"link": "#", "text": "Третий раздел каталога"},
+		{"link": "#", "text": "Четвертый раздел каталога", "current": true},
+		{"link": "#", "text": "Пятый раздел каталога"}
+	],
+
+	"filters": [
+		{
+			"id": "PRICE",
+			"name": "PRICE",
+			"title": "Цена",
+			"type": "range",
+			"value": {"min": 42.55, "max": 896.77},
+			"min": 40.00,
+			"max": 1000.00,
+			"prefixMin": "от",
+			"prefixMax": "до",
+			"postfixMin": "руб.",
+			"postfixMax": "руб.",
+			"precision": 0.01
+		},
+		{
+			"id": "LENGTH",
+			"name": "LENGTH",
+			"title": "Длина",
+			"type": "range",
+			"value": {"min": 60, "max": 220},
+			"min": 60,
+			"max": 220,
+			"prefixMin": "от",
+			"prefixMax": "до",
+			"postfixMin": "см",
+			"postfixMax": "см",
+			"precision": 1
+		},
+		{
+			"id": "WIDTH",
+			"name": "WIDTH",
+			"title": "Ширина",
+			"type": "range-slider",
+			"value": {"min": 60, "max": 220},
+			"min": 60,
+			"max": 220,
+			"prefixMin": "от",
+			"prefixMax": "до",
+			"postfixMin": "см",
+			"postfixMax": "см",
+			"precision": 1
+		},
+		{
+			"id": "STATUS",
+			"name": "STATUS",
+			"title": "Статус",
+			"type": "check-list",
+			"value": ["2"],
+			"options": [
+				{
+					"value": "1",
+					"text": "Новинка"
+				},
+				{
+					"value": "2",
+					"text": "Акция"
+				},
+				{
+					"value": "3",
+					"text": "Хит продаж"
+				}
+			]
+		},
+		{
+			"id": "BRAND",
+			"name": "BRAND",
+			"title": "Бренд",
+			"type": "check-list",
+			"value": [],
+			"options": [
+				{
+					"value": "1",
+					"text": "Вариант 1"
+				},
+				{
+					"value": "2",
+					"text": "Вариант 2"
+				},
+				{
+					"value": "3",
+					"text": "Вариант 3"
+				},
+				{
+					"value": "4",
+					"text": "Вариант 4"
+				},
+				{
+					"value": "5",
+					"text": "Вариант 5"
+				}
+			]
+		}
+	],
+
+	"items": [
+		{
+			"id": "1",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название первого товара первого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				},
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Хит"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 72.5,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 104.5,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "2",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название второго товара второго товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 58.35,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 98.80,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "3",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": null,
+			"imageSources": null,
+			"name": "Название третьего товара",
+			"status": null,
+			"availability": {
+				"value": 0,
+				"text": "Нет в наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 110.50,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "4",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название четвертого товара",
+			"status": null,
+			"availability": {
+				"value": 0,
+				"text": "Нет в наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 78,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "5",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название пятого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				},
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Хит"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 72.5,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 104.5,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "6",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": null,
+			"imageSources": null,
+			"name": "Название шестого товара",
+			"status": null,
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 58.35,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 98.80,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "7",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название седьмого товара",
+			"status": null,
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 110.50,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "8",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название восьмого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 78,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "9",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название девятого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				},
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Хит"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 72.5,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 104.5,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "10",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": null,
+			"imageSources": null,
+			"name": "Название десятого товара десятого товара десятого товара десятого товара",
+			"status": null,
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 58.35,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 98.80,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "11",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название одиннадцатого товара",
+			"status": null,
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 110.50,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "12",
+			"link": "/some/catalog/item/link/",
+			"quickViewLink": "/local/assets/dist/fixtures/catalog-item.json",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название двенадцатого товара двенадцатого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 78,
+					"currency": "руб."
+				}
+			}
+		}
+	]
+}

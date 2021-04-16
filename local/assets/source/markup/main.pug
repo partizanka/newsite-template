@@ -1,0 +1,105 @@
+extends /templates/page.pug
+
+block head-title
+	title Дизайн‑студия Нёрдс
+
+block main
+	section.slider
+		.slider__wrapper.container
+			input#slider-first.slider__input.slider__input--first(type='radio' name='slider-btn' checked)
+			input#slider-second.slider__input.slider__input--second(type='radio' name='slider-btn')
+			input#slider-third.slider__input.slider__input--third(type='radio' name='slider-btn')
+			.slider__btn
+				label.slider__label.slider__label--first(for='slider-first')
+				label.slider__label.slider__label--second(for='slider-second')
+				label.slider__label.slider__label--third(for='slider-third')
+			.slider__items
+				.slider__item
+					.slider__content
+						h2.slider__title Долго, дорого, скрупулёзно.
+						p.slider__text
+							| Математически выверенный дизайн
+							br
+							| для вашего сайта или мобильного приложения.
+						a.slider__link(href='#') Узнать больше
+				.slider__item
+					.slider__content
+						h2.slider__title Любим математику как никто другой
+						p.slider__text
+							| Никакого креатива, только математические формулы для расчета идеальных пропорций.
+						a.slider__link(href='#') Узнать больше
+				.slider__item
+					.slider__content
+						h2.slider__title Только ночь, только хардкор
+						p.slider__text
+							| Работать днем, как все? Мы против этого.
+							br
+							| Ближе к полуночи работа только начинается.
+						a.slider__link(href='#') Узнать больше
+	.container
+		section.advantages
+			.advantages__item
+				img.advantages__image(src="../../images/illustration-1.jpg" alt="Веб-сайты")
+				h2.advantages__title Веб-сайты
+				p.advantages__text Мир никогда не будет прежним после того, как увидит ваш сайт!
+				a.advantages__link.advantages__link--sites(href="#") Заказать
+			.advantages__item
+				img.advantages__image(src="../../images/illustration-2.jpg" alt="Приложения")
+				h2.advantages__title Приложения
+				p.advantages__text Покорите топ-10 приложений в AppStore и Google Play
+				a.advantages__link.advantages__link--apps(href="#") Заказать
+			.advantages__item
+				img.advantages__image(src="../../images/illustration-3.jpg" alt="Презентации")
+				h2.advantages__title Презентации
+				p.advantages__text Вы даже не подозреваете, насколько вы изумительны!
+				a.advantages__link.advantages__link--presentations(href="#") Заказать
+		section.about
+			.about__wrapper
+				.about__inner.about__inner--modification
+					b.about__title Мы — маленькая, но гордая дизайн‑студия из Краснодара.
+					p.about__description
+						| Исповедуем принципы минимализма и чистоты. Ставим математический рассчёт превыше креатива. Работаем не покладая рук, как роботы.
+				.about__inner
+					p.about__text Выполняем заказы на разработку:
+					ul.about__list
+						li.about__item Веб-сайтов любой сложности
+						li.about__item Мобильных приложений для IOS и Android
+						li.about__item Слайдшоу и видео для корпоративных презентаций
+			.about__wrapper
+				img.about__image(src="../../images/nerds-illustration.jpg" alt="Нёрдс")
+				.about__inner
+					p.about__text.about__text--difference С 2004 года любим точность во всём:
+					ul.about__features-list
+						li.about__feature-item
+							p.about__feature-number
+								| 146
+								sup %
+							p.about__feature Уровень самоотдачи
+						li.about__feature-item
+							p.about__feature-number
+								| 100
+								sup %
+							p.about__feature Соблюдение сроков
+						li.about__feature-item
+							p.about__feature-number
+								| 50
+								sup %
+							p.about__feature Минимальная предоплата
+		section.brand
+			ul.brand__list
+				li.brand__item
+					a.brand__link.brand__link--htmlacademy(href="#")
+				li.brand__item
+					a.brand__link.brand__link--bordershop(href="#")
+				li.brand__item
+					a.brand__link.brand__link--pink(href="#")
+				li.brand__item
+					a.brand__link.brand__link--mishka(href="#")
+	.map.js-map
+		section.contacts
+			h2.contacts__title Nёrds design studio
+			p.contacts__text
+				| 191196, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+				br
+				| тел. +7 (812) 275-75-75
+			a.contacts__link.js-open(href="#") Напишите нам

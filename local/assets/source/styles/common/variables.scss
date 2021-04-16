@@ -1,0 +1,35 @@
+/*
+	variable naming rules:
+	color-* -- color value
+	fz-* -- font-size value
+	fw-* -- font-weight value
+	ff-* -- font-family value
+	fs-* -- font-style value
+	*-color -- color of specific element
+	*-bg -- background of specific element
+	...
+*/
+
+
+/* sizes */
+$desktop-width: 1200px;
+$tablet-width: 768px;
+$phone-width: 320px;
+
+
+/* container */
+$container-width: 1200px;
+$container-padding: 20px;
+
+
+/* colors */
+$color-black: #000;
+$color-white: #fff;
+
+
+/* text */
+$ff-base: Roboto, Arial, sans-serif;
+$fw-regular: 400;
+$fw-bold: 700;
+$fz-base: 16px;
+$lh-base: 24px;

@@ -1,0 +1,43 @@
+.main-footer__wrapper {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	width: 1200px;
+	margin: 70px auto;
+	padding: 0 20px;
+}
+
+.main-footer__discount {
+	padding-top: 5px;
+}
+
+.main-footer__discount b {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+.main-footer__discount p {
+	margin: 7px 0 20px;
+	color: #444;
+}
+
+@include tablet {
+	.main-footer__wrapper {
+		flex-direction: column;
+	}
+
+	.main-footer__discount {
+		text-align: center;
+	}
+}
+
+@include phone {
+	.main-footer__wrapper {
+		flex-direction: column;
+	}
+
+	.main-footer__discount {
+		text-align: center;
+	}
+}

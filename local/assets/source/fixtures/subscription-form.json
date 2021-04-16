@@ -1,0 +1,19 @@
+{
+	"remote": "/local/assets/dist/fixtures/subscription-form-success.json",
+
+	"fields": [
+		{
+			"id": "FIELD_EMAIL",
+			"name": "FIELD_EMAIL",
+			"type": "email",
+			"inputmode": "email",
+			"label": null,
+			"placeholder": "Ваш email",
+			"value": null,
+			"errors": [
+				"Ваш email не действителен"
+			],
+			"width": "100%"
+		}
+	]
+}

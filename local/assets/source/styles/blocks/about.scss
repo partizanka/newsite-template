@@ -1,0 +1,172 @@
+.about {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 20px 75px;
+	border-top: 2px solid #eee;
+}
+
+.about__wrapper {
+	width: 680px;
+}
+
+.about__wrapper:last-child {
+	width: 360px;
+}
+
+.about__title {
+	display: block;
+	margin: 35px 0 32px;
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+}
+
+.about__text {
+	margin: 38px 0 0;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about__list {
+	margin: 0;
+	padding: 0;
+}
+
+.about__item {
+	position: relative;
+	padding: 24px 0 0 37px;
+	list-style: none;
+	list-style-position: outside;
+}
+
+.about__item::before {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	display: block;
+	content: "";
+	width: 25px;
+	height: 2px;
+	background-color: #fb565a;
+}
+
+.about__image {
+	width: 360px;
+	height: 208px;
+	margin: 0 0 13px;
+	background-color: #fff;
+}
+
+.about__features-list {
+	display: flex;
+	justify-content: space-between;
+	width: 360px;
+	list-style: none;
+	padding: 0;
+	margin: 40px 0 0;
+}
+
+.about__feature-number {
+	position: relative;
+	margin: 0;
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 700;
+}
+
+.about__feature-number sup {
+	top: -8px;
+}
+
+.about__text--difference {
+	text-align: center;
+}
+
+@include tablet {
+	.about {
+		flex-direction: column;
+	}
+
+	.about__wrapper {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.about__wrapper:last-child {
+		width: 100%;
+		margin: 50px 0 0;
+	}
+
+	.about__inner--modification {
+		width: 400px;
+		margin: 0 20px 0 0;
+	}
+
+	.about__title {
+		font-size: 32px;
+	}
+
+	.about__text {
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.about__features-list {
+		width: 320px;
+	}
+
+	.about__feature-item {
+		font-size: 14px;
+	}
+
+	.about__feature-number {
+		font-size: 40px;
+	}
+}
+
+@include phone {
+	.about {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.about__wrapper {
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.about__inner {
+		width: 100%;
+	}
+
+	.about__wrapper:last-child {
+		width: 100%;
+	}
+
+	.about__title {
+		font-size: 25px;
+	}
+
+	.about__list {
+		text-align: left;
+	}
+
+	.about__image {
+		margin: 30px 0;
+	}
+
+	.about__features-list {
+		width: 100%;
+	}
+
+	.about__feature-number {
+		font-size: 35px;
+	}
+
+	.about__feature-number sup {
+		top: -12px;
+	}
+}

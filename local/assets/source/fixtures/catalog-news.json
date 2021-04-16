@@ -1,0 +1,346 @@
+{
+	"remote": "/local/assets/dist/fixtures/catalog-news.json",
+
+	"type": "articles",
+
+	"sort": {
+		"value": "1",
+		"options": [
+			{"value": "1", "text": "Сначала новые"},
+			{"value": "2", "text": "Сначала старые"}
+		]
+	},
+
+	"view": null,
+
+	"page": {
+		"offset": 0,
+		"limit": 12,
+		"count": 44
+	},
+
+	"links": null,
+
+	"filters": [
+		{
+			"id": "STATUS",
+			"name": "STATUS",
+			"title": "Статус",
+			"type": "check-list",
+			"value": ["2"],
+			"options": [
+				{
+					"value": "1",
+					"text": "Новости компании"
+				},
+				{
+					"value": "2",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "CITY",
+			"name": "CITY",
+			"title": "Город",
+			"type": "check-list",
+			"value": ["1", "2", "3", "5"],
+			"options": [
+				{
+					"value": "1",
+					"text": "Минск"
+				},
+				{
+					"value": "2",
+					"text": "Брест"
+				},
+				{
+					"value": "3",
+					"text": "Витебск"
+				},
+				{
+					"value": "4",
+					"text": "Гродно"
+				},
+				{
+					"value": "5",
+					"text": "Гомель"
+				},
+				{
+					"value": "6",
+					"text": "Могилев"
+				}
+			]
+		}
+	],
+
+	"items": [
+		{
+			"id": "1",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название первой статьи",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новости компании"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название второй статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"link": "#",
+			"image": null,
+			"imageSources": null,
+			"name": "Название третьей статьи название статьи",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новости компании"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название четвертой статьи название статьи длинное название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название пятой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название шестой статьи название статьи",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новости компании"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название седьмой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название восьмой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "9",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название девятой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "10",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название десятой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "11",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название одинадцатой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "12",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название двенадцатой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"remote": "/local/assets/dist/fixtures/search-small-response.json",
+	"query": "Запрос",
+	"link": "/local/assets/dist/markup/search-result.html"
+}

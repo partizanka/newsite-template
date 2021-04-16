@@ -1,0 +1,127 @@
+.advantages {
+	display: flex;
+	margin: 80px 0;
+	padding: 0 20px;
+}
+
+.advantages__item {
+	width: 300px;
+	margin: 0 100px 0 0;
+}
+
+.advantages__item:last-child {
+	margin: 0;
+}
+
+.advantages__image {
+	width: 300px;
+	height: 146px;
+	margin: 0 0 17px 0;
+	background-color: #e5e5e5;
+}
+
+.advantages__title {
+	margin: 0;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.advantages__text {
+	width: 260px;
+	margin: 15px 0 33px;
+}
+
+.advantages__link {
+	display: block;
+	width: 160px;
+	padding: 16px 0;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.advantages__link--sites {
+	background-color: #fb565a;
+}
+
+.advantages__link--sites:hover {
+	background-color: #e74246;
+}
+
+.advantages__link--sites:active {
+	color: rgba(255, 255, 255, .3);
+	background-color: #d7373b;
+	box-shadow: inset 0px 3px 0px 0px #c13135;
+}
+
+.advantages__link--apps {
+	background-color: #00ca74;
+}
+
+.advantages__link--apps:hover {
+	background-color: #00bc6c;
+}
+
+.advantages__link--apps:active {
+	color: rgba(255, 255, 255, .3);
+	background-color: #00aa62;
+	box-shadow: inset 0px 3px 0px 0px #009958;
+}
+
+.advantages__link--presentations {
+	background-color: #efc84a;
+}
+
+.advantages__link--presentations:hover {
+	background-color: #eab534;
+}
+
+.advantages__link--presentations:active {
+	color: rgba(255, 255, 255, .3);
+	background-color: #e5a722;
+	box-shadow: inset 0px 3px 0px 0px #ce961f;
+}
+
+@include tablet {
+	.advantages {
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.advantages__item {
+		width: 300px;
+		margin: 0 0 50px;
+	}
+
+	.advantages__text {
+		margin: 15px auto 33px;
+	}
+
+	.advantages__link {
+		margin: 0 auto;
+	}
+}
+
+@include phone {
+	.advantages {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.advantages__item {
+		width: 100%;
+		margin: 0 0 50px;
+	}
+
+	.advantages__link {
+		margin: 0 auto;
+	}
+}

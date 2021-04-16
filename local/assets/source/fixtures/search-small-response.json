@@ -1,0 +1,39 @@
+{
+	"remote": "/local/assets/dist/fixtures/search-small-response.json",
+	"query": "Запрос",
+	"link": "/local/assets/dist/markup/search-result.html",
+	"suggestions": [
+		{
+			"link": "#",
+			"text": "Ссылка 1"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 2"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 3"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 3"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 3"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 3"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 3"
+		},
+		{
+			"link": "#",
+			"text": "Ссылка 3"
+		}
+	]
+}

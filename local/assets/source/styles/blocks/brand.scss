@@ -1,0 +1,109 @@
+.brand {
+	margin: 0 0 80px;
+	padding: 0 20px;
+	border-top: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+}
+
+.brand__list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.brand__link {
+	position: relative;
+	display: block;
+	width: 260px;
+	height: 180px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.brand__link--bordershop::before,
+.brand__link--pink::before,
+.brand__link--mishka::before {
+	position: absolute;
+	top: 64px;
+	left: -20px;
+	display: block;
+	content: "";
+	width: 2px;
+	height: 52px;
+	background-color: #eee;
+}
+
+.brand__link--htmlacademy {
+	background-image: url("../../images/logo-1.png");
+	background-position: center 60px;
+}
+
+.brand__link--htmlacademy:hover {
+	background-image: url("../../images/logo-12.png");
+}
+
+.brand__link--htmlacademy:active {
+	background-image: url("../../images/logo-11.png");
+}
+
+.brand__link--bordershop {
+	background-image: url("../../images/logo-2.png");
+}
+
+.brand__link--bordershop:hover {
+	background-image: url("../../images/logo-22.png");
+}
+
+.brand__link--bordershop:active {
+	background-image: url("../../images/logo-21.png");
+}
+
+.brand__link--pink {
+	background-image: url("../../images/logo-3.png");
+}
+
+.brand__link--pink:hover {
+	background-image: url("../../images/logo-32.png");
+}
+
+.brand__link--pink:active {
+	background-image: url("../../images/logo-31.png");
+}
+
+.brand__link--mishka {
+	background-image: url("../../images/logo-4.png");
+	background-position: center 50px;
+}
+
+.brand__link--mishka:hover {
+	background-image: url("../../images/logo-42.png");
+}
+
+.brand__link--mishka:active {
+	background-image: url("../../images/logo-41.png");
+}
+
+@include tablet {
+	.brand__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.brand__link--pink::before {
+		display: none;
+	}
+
+	.brand__link--bordershop::before,
+	.brand__link--mishka::before {
+		left: -100px;
+	}
+}
+
+@include phone {
+	.brand__list {
+		flex-direction: column;
+	}
+}

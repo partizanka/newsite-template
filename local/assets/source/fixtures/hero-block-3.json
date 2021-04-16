@@ -1,0 +1,24 @@
+{
+	"imageSources": {
+		"large": "https://placehold.it/1600x540/ddd/aaa",
+		"medium": "https://placehold.it/1000x480/ddd/aaa",
+		"small": "https://placehold.it/640x640/ddd/aaa"
+	},
+	"title": "Template hero block",
+	"text": "Текст описания пятого слайда.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+	"link": null,
+	"dark": false,
+	"position": "left",
+	"buttons": [
+		{
+			"type": "primary",
+			"link": "#1",
+			"text": "Подробнее"
+		},
+		{
+			"type": "default",
+			"link": "#2",
+			"text": "Информация"
+		}
+	]
+}

@@ -1,0 +1,143 @@
+{
+	"slides": [
+		{
+			"id": "1",
+			"imageSources": {
+				"large": "https://placehold.it/1600x540/ddd/aaa",
+				"medium": "https://placehold.it/1000x480/ddd/aaa",
+				"small": "https://placehold.it/640x640/ddd/aaa"
+			},
+			"title": "Template первый слайд",
+			"text": "Текст описания первого слайда. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+			"link": "#",
+			"dark": false,
+			"position": "left",
+			"buttons": [
+				{
+					"type": "primary",
+					"link": "#1",
+					"text": "Подробнее"
+				},
+				{
+					"type": "default",
+					"link": "#2",
+					"text": "Информация"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"imageSources": {
+				"large": "https://placehold.it/1600x540/ddd/aaa",
+				"medium": "https://placehold.it/1000x480/ddd/aaa",
+				"small": "https://placehold.it/640x640/ddd/aaa"
+			},
+			"title": "Template второй слайд",
+			"text": "Текст описания второго слайда. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+			"link": "#",
+			"dark": false,
+			"position": "right",
+			"buttons": [
+				{
+					"type": "primary",
+					"link": "#1",
+					"text": "Подробнее"
+				},
+				{
+					"type": "default",
+					"link": "#2",
+					"text": "Информация"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"imageSources": {
+				"large": "https://placehold.it/1600x540/333/666",
+				"medium": "https://placehold.it/1000x480/333/666",
+				"small": "https://placehold.it/640x640/333/666"
+			},
+			"title": "Template третий слайд",
+			"text": "Текст описания третьего слайда. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+			"link": "#",
+			"dark": true,
+			"position": "left",
+			"buttons": [
+				{
+					"type": "primary",
+					"link": "#1",
+					"text": "Подробнее"
+				},
+				{
+					"type": "default",
+					"link": "#2",
+					"text": "Информация"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"imageSources": {
+				"large": "https://placehold.it/1600x540/333/666",
+				"medium": "https://placehold.it/1000x480/333/666",
+				"small": "https://placehold.it/640x640/333/666"
+			},
+			"title": "Template четвертый слайд",
+			"text": "Текст описания четвертого слайда. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+			"link": "#",
+			"dark": true,
+			"position": "right",
+			"buttons": [
+				{
+					"type": "primary",
+					"link": "#1",
+					"text": "Подробнее"
+				},
+				{
+					"type": "default",
+					"link": "#2",
+					"text": "Информация"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"imageSources": {
+				"large": "https://placehold.it/1600x540/ddd/aaa",
+				"medium": "https://placehold.it/1000x480/ddd/aaa",
+				"small": "https://placehold.it/640x640/ddd/aaa"
+			},
+			"title": "Template пятый слайд без ссылки",
+			"text": "Текст описания пятого слайда. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+			"link": null,
+			"dark": false,
+			"position": "left",
+			"buttons": [
+				{
+					"type": "primary",
+					"link": "#1",
+					"text": "Подробнее"
+				},
+				{
+					"type": "default",
+					"link": "#2",
+					"text": "Информация"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"imageSources": {
+				"large": "https://placehold.it/1600x540/ddd/aaa",
+				"medium": "https://placehold.it/1000x480/ddd/aaa",
+				"small": "https://placehold.it/640x640/ddd/aaa"
+			},
+			"title": "Template шестой слайд без кнопок",
+			"text": "Текст описания шестого слайда. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima perspiciatis distinctio quibusdam pariatur rerum ipsam sint neque, omnis eveniet odit, saepe itaque consequuntur commodi eaque temporibus. Laudantium, natus amet? Nesciunt.",
+			"link": "#",
+			"dark": false,
+			"position": "left",
+			"buttons": null
+		}
+	]
+}

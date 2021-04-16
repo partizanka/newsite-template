@@ -1,0 +1,45 @@
+.basket {
+	position: relative;
+	margin: 0 0 0 245px;
+	padding: 10px 0 0 25px;
+	text-align: right;
+}
+
+.basket__link {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+	color: #000;
+}
+
+.basket__link::before {
+	position: absolute;
+	top: 14px;
+	left: 0;
+	display: block;
+	content: "";
+	width: 15px;
+	height: 15px;
+	background-image: url("../../images/cart-icon.png");
+	background-repeat: no-repeat;
+}
+
+.basket__link:hover {
+	color: #fb565a;
+}
+
+.basket__link:active {
+	color: #bdbdbd;
+}
+
+@include tablet {
+	.basket {
+		margin: 0;
+	}
+}
+
+@include phone {
+	.basket {
+		display: none;
+	}
+}

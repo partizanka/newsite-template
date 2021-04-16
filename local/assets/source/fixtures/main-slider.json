@@ -1,0 +1,32 @@
+{
+	"slides": [
+		{
+			"id": "slide_1",
+			"title": "Template первый слайд"
+		},
+		{
+			"id": "slide_2",
+			"title": "Template второй слайд"
+		},
+		{
+			"id": "slide_3",
+			"title": "Template третий слайд"
+		},
+		{
+			"id": "slide_4",
+			"title": "Template четвертый слайд"
+		},
+		{
+			"id": "slide_5",
+			"title": "Template пятый слайд"
+		},
+		{
+			"id": "slide_6",
+			"title": "Template шестой слайд"
+		}
+	],
+	"options": {
+		"slidesPerView": 1,
+		"spaceBetween": 0
+	}
+}

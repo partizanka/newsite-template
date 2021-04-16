@@ -1,0 +1,104 @@
+{
+	"remote": "/local/assets/dist/fixtures/catalog-item.json",
+
+	"filters": [
+		{
+			"id": "ELEMENT_ID",
+			"name": "ELEMENT_ID",
+			"title": "Цвет",
+			"type": "select",
+			"value": "2",
+			"options": [
+				{
+					"value": "1",
+					"text": "Красный"
+				},
+				{
+					"value": "2",
+					"text": "Синий"
+				},
+				{
+					"value": "3",
+					"text": "Белый"
+				}
+			]
+		}
+	],
+
+	"item": {
+		"id": "1",
+		"link": "#",
+		"image": "https://placehold.it/420x420",
+		"imageSources": [
+			{
+				"src": "https://placehold.it/420x420",
+				"size": "1x"
+			},
+			{
+				"src": "https://placehold.it/840x840",
+				"size": "2x"
+			}
+		],
+		"name": "Название товара",
+		"status": [
+			{
+				"background": "#3d3",
+				"color": "#fff",
+				"text": "Новинка"
+			},
+			{
+				"background": "#da3",
+				"color": "#fff",
+				"text": "Хит"
+			}
+		],
+		"availability": {
+			"value": 1,
+			"text": "В наличии"
+		},
+		"price": {
+			"current": {
+				"prefix": "от",
+				"value": 72.5,
+				"currency": "руб."
+			},
+			"old": {
+				"value": 104.5,
+				"currency": "руб."
+			}
+		},
+		"info": [
+			{
+				"name": "Доставка",
+				"value": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsum magnam enim ullam iure vitae, doloremque pariatur velit libero deleniti saepe, vero maxime quibusdam placeat perspiciatis illo quaerat nulla accusamus.</p> <p>Assumenda incidunt, earum, eveniet fuga tenetur repellendus eos.</p>"
+			},
+			{
+				"name": "Оплата",
+				"value": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsum magnam enim ullam iure vitae.</p> <ul><li>Lorem ipsum dolor sit amet</li> <li>Lorem ipsum dolor sit amet</li> <li>Lorem ipsum dolor sit amet</li></ul>"
+			},
+			{
+				"name": "Гарантия",
+				"value": "<p>Assumenda incidunt, earum, eveniet fuga tenetur repellendus eos.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsum magnam enim ullam iure vitae, doloremque pariatur velit libero deleniti saepe, vero maxime quibusdam placeat perspiciatis illo quaerat nulla accusamus.</p>"
+			}
+		],
+		"params": [
+			{
+				"name": "Длина",
+				"value": "120см"
+			},
+			{
+				"name": "Ширина",
+				"value": "80см"
+			},
+			{
+				"name": "Высота",
+				"value": "60см"
+			},
+			{
+				"name": "Вес",
+				"value": "1200г"
+			}
+		],
+		"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint corporis accusantium necessitatibus dolor, eius optio dignissimos veniam velit eligendi, quo atque rerum quis vero repellat, provident officia! Nostrum, velit, et.</p> <p>Fugit provident magnam ratione excepturi, commodi mollitia accusantium necessitatibus iure ab aliquid nemo pariatur vero sunt corporis, quod omnis facilis eligendi harum.</p> <p>Maxime quibusdam labore ullam ex! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, voluptate esse maxime ipsa, ipsum eligendi quae fugit eius quis voluptatem tempora magni dolores similique odit.</p>"
+	}
+}

@@ -1,0 +1,158 @@
+{
+	"type": "articles",
+
+	"items": [
+		{
+			"id": "1",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название первой статьи",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новости компании"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название второй статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"link": "#",
+			"image": null,
+			"imageSources": null,
+			"name": "Название третьей статьи название статьи",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новости компании"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название четвертой статьи название статьи длинное название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название пятой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название шестой статьи название статьи",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новости компании"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"link": "#",
+			"image": "https://placehold.it/256x144",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/256x144",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/512x288",
+					"size": "2x"
+				}
+			],
+			"name": "Название седьмой статьи название статьи",
+			"status": [
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Акции"
+				}
+			]
+		}
+	]
+}

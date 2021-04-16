@@ -1,0 +1,52 @@
+{
+	"remote": "/local/assets/dist/fixtures/simple-form.json",
+
+	"title": null,
+	"note": null,
+
+	"buttons": [
+		{
+			"type": "submit",
+			"text": "Отправить",
+			"className": "btn btn--primary",
+			"event": null,
+			"disabled": false
+		}
+	],
+
+	"groups": [
+		{
+			"id": "1",
+			"title": null,
+			"note": null,
+			"width": "100%"
+		}
+	],
+
+	"fields": [
+		{
+			"groupId": "1",
+			"id": "FIELD_NAME",
+			"name": "FIELD_NAME",
+			"type": "text",
+			"inputmode": "text",
+			"label": "Имя",
+			"placeholder": "Укажите имя",
+			"value": "Тест",
+			"errors": null,
+			"width": "100%"
+		},
+		{
+			"groupId": "1",
+			"id": "PASSWORD",
+			"name": "PASSWORD",
+			"type": "password",
+			"inputmode": "text",
+			"label": "Пароль",
+			"placeholder": "Укажите пароль",
+			"value": "Тест",
+			"errors": null,
+			"width": "100%"
+		}
+	]
+}

@@ -1,0 +1,279 @@
+{
+	"type": "products",
+	"items": [
+		{
+			"id": "1",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название первого товара первого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				},
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Хит"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 1072.5,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 104.5,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "2",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название второго товара второго товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 58.35,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 98.80,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "3",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название третьего товара",
+			"status": null,
+			"availability": {
+				"value": 0,
+				"text": "Нет в наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 110.50,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "4",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название четвертого товара",
+			"status": null,
+			"availability": {
+				"value": 0,
+				"text": "Нет в наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 78,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "5",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название пятого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				},
+				{
+					"background": "#da3",
+					"color": "#fff",
+					"text": "Хит"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 72.5,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 104.5,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "6",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название шестого товара",
+			"status": null,
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 58.35,
+					"currency": "руб."
+				},
+				"old": {
+					"value": 98.80,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "7",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название седьмого товара",
+			"status": null,
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 110.50,
+					"currency": "руб."
+				}
+			}
+		},
+		{
+			"id": "8",
+			"link": "#",
+			"image": "https://placehold.it/216x216",
+			"imageSources": [
+				{
+					"src": "https://placehold.it/216x216",
+					"size": "1x"
+				},
+				{
+					"src": "https://placehold.it/432x432",
+					"size": "2x"
+				}
+			],
+			"name": "Название восьмого товара",
+			"status": [
+				{
+					"background": "#3d3",
+					"color": "#fff",
+					"text": "Новинка"
+				}
+			],
+			"availability": {
+				"value": 1,
+				"text": "В наличии"
+			},
+			"price": {
+				"current": {
+					"prefix": "от",
+					"value": 78,
+					"currency": "руб."
+				}
+			}
+		}
+	]
+}
